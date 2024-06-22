@@ -38,7 +38,7 @@
         <!-- Location Section End -->
 
         <!-- Gallary Section Start -->
-        <x-gallery />
+        {{-- <x-gallery /> --}}
         <!-- Gallary Section End -->
 
         <!-- Contact Us Section Start -->

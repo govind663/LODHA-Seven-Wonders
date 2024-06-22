@@ -161,8 +161,8 @@
 
             <p><strong>Project Rera : </strong> P51800046322</p>
             <div class="rera-box">
-                <a href="img/image.png" class="with-caption image-link" title="project-rera">
-                    <img src="img/image.png" alt="" width="100px">
+                <a href="{{ asset('img/image.png') }}" class="with-caption image-link" title="project-rera">
+                    <img src="{{ asset('img/image.png') }}" alt="" width="100px">
                 </a>
             </div>
             <!-- <div class="rera-box">
