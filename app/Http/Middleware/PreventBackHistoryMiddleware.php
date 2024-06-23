@@ -16,6 +16,7 @@ class PreventBackHistoryMiddleware
     public function handle(Request $request, Closure $next): Response
     {
         $response =  $next($request);
+
         $response->headers->set('X-Frame-Options', 'DENY');
         $response->headers->set('X-XSS-Protection', '1; mode=block');
         $response->headers->set('X-Permitted-Cross-Domain-Policies', 'master-only');
@@ -26,12 +27,15 @@ class PreventBackHistoryMiddleware
         $response->headers->set('Pragma', 'no-cache');
         $response->headers->set('Expires', 'Sat, 26 Jul 1997 05:00:00 GMT');
         $response->headers->set('Content-Security-Policy', "frame-ancestors 'none'");
+
         // set method
         $response->headers->set('Access-Control-Allow-Origin', '*');
         $response->headers->set('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
         $response->headers->set('Access-Control-Allow-Headers', 'Content-Type, Authorization, X-Requested-With, X-Auth-Token');
         $response->headers->set('Access-Control-Allow-Credentials', 'true');
 
+        // Set a cookie
+        $response->headers->setCookie(cookie('XSRF-TOKEN', csrf_token(), 60 * 24 * 365));
         return $response;
     }
 }
