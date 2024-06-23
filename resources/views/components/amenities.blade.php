@@ -33,7 +33,7 @@
 
             <div class="col-6 col-lg-3 col-sm-6">
                 <div class="amenities-item ">
-                    <img class="amenities-img" src="{{ asset('asset/img/amenities/kids-zone.png') }}">
+                    <img class="amenities-img" src="{{ asset('assets/img/amenities/kids-zone.png') }}">
                     <h3>Children's Play Area</h3>
                     </p>
                 </div>
