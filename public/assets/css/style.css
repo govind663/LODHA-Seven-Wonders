@@ -1593,9 +1593,13 @@ max-width: 200px;
   color: #fff;
   width: 100%;
   left: 12%;
-  max-width: 1400px;
+  max-width: 1337px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+
 }
 
 .slider-content .main_button.btn:hover {

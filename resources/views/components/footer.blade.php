@@ -24,12 +24,13 @@
                 <div class="footer-widget">
                     <div class="footer-logo">
                         <a href="index.html">
-                            <img src="{{ asset('img/logo/lodha-premier-logo.jpg') }}" class="footer-logo" alt="Logo">
+                            <img src="{{ asset('assets/img/logo/lodha_logo.png') }}" class="footer-logo" alt="Logo">
                         </a>
                     </div>
                     <p> Proptiger utilizes cutting-edge technology for effortless property shortlisting,
                         offering an
-                        interactive viewing experience and real-time critical information. </p>
+                        interactive viewing experience and real-time critical information.
+                    </p>
                     <ul class="social-link">
                         <li>
                             <a href="https://www.facebook.com/proptiger" target="_blank">
@@ -58,7 +59,7 @@
             <div class="col-lg-3 col-md-6">
                 <div class="footer-widget">
                     <h3>Useful Links</h3>
-                    <ul class="footer-list">
+                    {{-- <ul class="footer-list">
                         <li>
                             <a href="{{ route('home') }}" target="_blank">
                                 <i class="bx bxs-chevron-right"></i> Home </a>
@@ -75,13 +76,13 @@
                             <a href="disclaimer.html" target="_blank">
                                 <i class="bx bxs-chevron-right"></i> Privacy Policy & Disclaimer </a>
                         </li>
-                    </ul>
+                    </ul> --}}
                 </div>
             </div>
             <div class="col-lg-2 col-md-6">
                 <div class="footer-widget">
                     <h3>All Projects</h3>
-                    <ul class="footer-list">
+                    {{-- <ul class="footer-list">
                         <li>
                             <a href="adani-realty/" target="_blank">
                                 <i class="bx bxs-chevron-right"></i> Adani Realty </a>
@@ -115,7 +116,7 @@
                                 <i class="bx bxs-chevron-right"></i> Runwal Group </a>
                         </li>
 
-                    </ul>
+                    </ul> --}}
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">

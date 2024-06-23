@@ -6,7 +6,7 @@
             <div class="modal-body">
                 <div class="left_col">
                     <div class="content">
-                        <img src="{{ asset('img/logo.png') }}" alt="project logo" class="img-fluid">
+                        <img src="{{ asset('assets/img/logo/lodha_logo.png') }}" alt="project logo" class="img-fluid">
                         <h1>Lodha, LBS Road</h1>
                         <h4 class="typo">2 & 3 BHK Apartments</h4>
                         <h4 class="price">Starting Price: Rs. 2.29 Cr* Onwards</h4>
@@ -38,7 +38,7 @@
             <div class="modal-body">
                 <div class="left_col">
                     <div class="content">
-                        <img src="{{ asset('img/logo.png') }}" alt="project logo" class="img-fluid">
+                        <img src="{{ asset('assets/img/logo/lodha_logo.png') }}" alt="project logo" class="img-fluid">
                         <h1>Lodha, LBS Road</h1>
                         <h4 class="typo">2 & 3 BHK Apartments</h4>
                         <h4 class="price">Starting Price: Rs. 2.29 Cr* Onwards</h4>
@@ -204,5 +204,5 @@
 <script>
     setTimeout(function() {
         $('#onload').modal('show')
-    }, 10000)
+    }, 1000)
 </script>

@@ -3,7 +3,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-md">
                 <a class="navbar-brand" href="{{ route('home') }}">
-                    <img src="{{ asset('img/logo/lodha-premier-logo.jpg') }}" class="logo-one" alt="Logo">
+                    <img src="{{ asset('assets/img/logo/lodha_logo.png') }}" class="logo-one" alt="Logo">
                 </a>
                 <div class="mobile-trigger">
                     <i></i>
